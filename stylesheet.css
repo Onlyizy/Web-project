@@ -1,21 +1,20 @@
 body{
-  background-color: black;
+  background-color: lightgreen;
 }
 
 main{
   background-color: grey;
+  padding: 100px;
+}
+
+
+table, th, td, tr {
+  border: 1px solid;
+  width: fit-content;
+  
+
 }
 
 .front{
-  background-color: light-blue;
-}
-
-
-table {
-  border: 1px;
-  color: light-green;
-}
-
-p {
-  font-family: 
+  background-color: aquamarine;
 }
