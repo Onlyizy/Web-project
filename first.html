@@ -4,16 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Interactive Resume</title>
+    <title>Immersive Resume</title>
     <link rel="stylesheet" href="stylesheet.css">
 </head>
 <body>
     <header>
-        <div class="front">
-            <h1>Isaac Kone</h1>
-            <h4>Interactive Resume</h4>
-        </div>
-        <div class="menu">
             <nav>
                 <ul>
                     <li><a href="#education">My Education so far</a></li>
@@ -26,92 +21,80 @@
                     <li><a href="#social">Social Media Links</a></li>
                 </ul>
             </nav>
+        <div class="front">
+            <!--<img src="" alt="photo of me"> or maybe it will just be added to as attribut to the front class -->
+            <h1>Isaac Kone</h1>
+            <h4>Immersive Resume</h4>
         </div>
     </header>
     <main>
-        <div id="education">
-            <div class="subject">
-                <article>
-                    <div class="inline-image">
-                        <img src="Media/empt_kids.jpg" alt="EMPT students marching" height="25%" width="33%">
-                    </div>
-                    <div class="papyrus">
-                        <h3>Prestigious Military Academy of Bingerville</h3>
-                        <p> I was blessed with a great high-school education in one of <em>the most prestigious schools </em> of my native country <a href="https://en.wikipedia.org/wiki/Ivory_Coast" target="_blank">Ivory Coast</a>. <br><b>The Preparatory and Technical Military School</b> of Bingerville (Ecole Militare Preparatoire et Technique or EMPT de Bingerville ) is a school teaching its students discipline and hardwork since 1939. Providing them with all the tools needed to navigate the world around them and inculquing them true values. Since its creation the school raised plenty of legends like <a href="https://fr.wikipedia.org/wiki/Soumaila_Bakayoko" target="_blank"> the former Commander in chief of the ivorian army the General Soumaila Bakayoko </a>, <a href="https://fr.wikipedia.org/wiki/Lansana_Cont%C3%A9" target="_blank"> The former Guinean President Lansana Conté</a>, <a href="https://fr.wikipedia.org/wiki/Sidi_Ti%C3%A9moko_Tour%C3%A9" target="_blank"> The Ivorian minister Sidi Tiémoko Touré </a> and <a href="https://fr.wikipedia.org/wiki/%C3%89cole_militaire_pr%C3%A9paratoire_technique" target="_blank">more</a>...</p>
-                    </div>
-                </article>
-                <article>
-                    <div class="inline-image">
-                            <img src="Media/Carleton Landscape.jpg" alt="Carleon university Landscape" height="25%" width="33%">
-                    </div>
-                    <div class="papyrus">
-                        <h3>Carleton University</h3> 
-                        <p>Travelling and discovering the world is, to me, one of the best ways to learn. <br> I came in Canada already eager to learn about <b>Computers</b>, <em>not only the software nor only the hardware</em>. I had a clear idea of what I wanted, all I needed was the Program and the University proposing the program. <b>Carleton University</b> was a great choice to me as they had a great engineering department and had a <b>Computer System Engineering Program</b>.</p>
-                    </div>
-                </div>
-            <!-- The idea is to align the text on the left side maybe i have to use a div and two spans but not sure-->
-                <div class="details">
-                    <span class="empty space"></span>
-                    <span class="details_link"> <a href="">More on my Education </a> </span>
-                </div>
-            </div>
+        <div class="section_title">
+            <h2>Education</h2>
         </div>
-        <div id="work">
-            <h2>My Work</h2>
-            <section>
-                <div class="subject">
-                    <div class="inline-image">
-                        <img src="Media/first.html - Codecademy Course Project - Visual Studio Code 5_9_2022 12_29_30 AM.png" alt="My Web Project" height="25%" width="33%">
-                    </div>
-                    <div class="article">
-                        <h3>The Interactive Resume</h3>
-                        <p>The website you are currently on was entirely built by myself. <br> Perhaps a more modern way to display my skillset, the website was written using <b>HTML5/CSS</b> and <b>Javascript</b>.</p>
-                    </div>
-                </div>
-                <div class="subject">
-                    <div class="inline-image">
-                        <img src="Media/dilema_breaker.PNG" alt="My Programming Project" height="25%" width="33%">
-                    </div>
-                    <div class="article">
-                        <h3>The Dilema Breaker</h3> 
-                        <p>What started as a joke to amuse myself during some bland hours at my customer service job became a pretty “serious” enterprise <br>.The reason why <em>the Dilemma Breaker</em> is so important is because it firstly gave me the opportunity to learn and experiment with <b>git</b>. The project was used to familiarize myself with the tool, thus, the <b>python</b> script experienced a similar process than any serious Tech project. Secondly after re-reading <em><i>“Atomic Habit”</i></em> <u>James Clear</u> I figured out that such a tool maybe useful to leverage some of the rules he laid out in there</p>
-                    </div>
-                </div>
-                <div class="subject">
-                    <div class="inline-image">
-                        <img src="Media/Oracle VM VirtualBox Manager 5_9_2022 1_39_27 AM.png" alt="My IT project" height="25%" width="33%">
-                    </div>
-                    <div class="article">
-                        <h3>My Operating System Army</h3> 
-                        <p>At some point during my tech journey I met Linux the free and open-source operating system and decided to navigate this new world. <br> I decided to explore Linux distributions and master their different tools. So far I have setup multiple Virtual Machines and did a couple bare Machine installations. Here are the Linux distro I still use on my computers:</p>
-                        <ol>
-                            <li><a href="https://ubuntu.com/" target="_blank">Ubuntu</a></li>
-                            <li><a href="https://archlinux.org/" target="_blank">Arch Linux</a></li>
-                            <li><a href="https://www.gentoo.org/" target="_blank">Gentoo</a></li>
-                            <li><a href="https://www.kali.org/" target="_blank">Kali Linux</a></li>
-                        </ol>
-                        <p>I've not only played with the installations I also explored the terminal in great depth and learned some tools like scheduling tasks with <b>crontab</b>, <b>config files</b>, <b>Bash Scripting</b> and a lot more... I've also familiarized myself with the <b>Kernel</b> and <b>Grub</b>.</p>
-                    </div>
-                </div>
-                <div class="subject">
-                    <div class="inline-image">
-                        <img src="Media/raspi.jpeg" alt="Robotic Project" height="25%" width="33%">
-                    </div>
-                    <div class="article">
-                        <h3>Personalized Alarm</h3> 
-                        <p>I am also tryin to learn about the <b>hardware</b>.<br>I was extremely lucky to manage to buy a <b>Raspberry Pi 4</b> with enough Ram to suppose some of my tinkering endeavors. This Alarm just plays a random song, podcast or speech from a chosen and modifiable playlist at a given time promising just what we need of motivation and joy to start the day.</p>  
-                    </div>
-                </div>
-                
-                <!-- The idea is to align the text on the left side maybe i have to use a div and two spans but not sure-->
-                <div class="details">
-                <span class="empty space"></span>
-                <span class="details_link"> <a href="">More on my Work </a> </span>
-                </div>
+        <article>
+            <div class="left-inline-image">
+                <img src="Media/empt_kids.jpg" alt="EMPT students marching" height="25%" width="33%">
             </div>
+            <div class="right-side-text">
+                <h3>Prestigious Military Academy of Bingerville</h3>
+                <p> I was blessed with a great high-school education in one of <em>the most prestigious schools </em> of my native country <a href="https://en.wikipedia.org/wiki/Ivory_Coast" target="_blank">Ivory Coast</a>. <br><b>The Preparatory and Technical Military School</b> of Bingerville (Ecole Militare Preparatoire et Technique or EMPT de Bingerville ) is a school teaching its students discipline and hardwork since 1939. Providing them with all the tools needed to navigate the world around them and inculquing them true values. Since its creation the school raised plenty of legends like <a href="https://fr.wikipedia.org/wiki/Soumaila_Bakayoko" target="_blank"> the former Commander in chief of the ivorian army the General Soumaila Bakayoko </a>, <a href="https://fr.wikipedia.org/wiki/Lansana_Cont%C3%A9" target="_blank"> The former Guinean President Lansana Conté</a>, <a href="https://fr.wikipedia.org/wiki/Sidi_Ti%C3%A9moko_Tour%C3%A9" target="_blank"> The Ivorian minister Sidi Tiémoko Touré </a> and <a href="https://fr.wikipedia.org/wiki/%C3%89cole_militaire_pr%C3%A9paratoire_technique" target="_blank">more</a>...</p>
+            </div>
+        </article>
+        <article>
+            <div class="left-side-text">
+                <h3>Carleton University</h3> 
+                <p>Travelling and discovering the world is, to me, one of the best ways to learn. <br> I came in Canada already eager to learn about <b>Computers</b>, <em>not only the software nor only the hardware</em>. I had a clear idea of what I wanted, all I needed was the Program and the University proposing the program. <b>Carleton University</b> was a great choice to me as they had a great engineering department and had a <b>Computer System Engineering Program</b>.</p>
+            </div>
+            <div class="right-inline-image">
+                <img src="Media/Carleton Landscape.jpg" alt="Carleon university Landscape" height="25%" width="33%">
+            </div>
+        </article>
+        <article>
+            <div class="left-inline-image">
+                <img src="Media/first.html - Codecademy Course Project - Visual Studio Code 5_9_2022 12_29_30 AM.png" alt="My Web Project" height="25%" width="33%">
+            </div>
+            <div class="right-side-text">
+                <h3>The Interactive Resume</h3>
+                <p>The website you are currently on was entirely built by myself. <br> Perhaps a more modern way to display my skillset, the website was written using <b>HTML5/CSS</b> and <b>Javascript</b>.</p>
+            </div>
+        </article>
+        <article>
+            <div class="left-side-text">
+                <h3>The Dilema Breaker</h3> 
+                <p>What started as a joke to amuse myself during some bland hours at my customer service job became a pretty “serious” enterprise <br>.The reason why <em>the Dilemma Breaker</em> is so important is because it firstly gave me the opportunity to learn and experiment with <b>git</b>. The project was used to familiarize myself with the tool, thus, the <b>python</b> script experienced a similar process than any serious Tech project. Secondly after re-reading <em><i>“Atomic Habit”</i></em> <u>James Clear</u> I figured out that such a tool maybe useful to leverage some of the rules he laid out in there</p>
+            </div>
+            <div class="right-inline-image">
+                <img src="Media/dilema_breaker.PNG" alt="My Programming Project" height="25%" width="33%">
+            </div>
+        </article>
+        <article>
+            <div class="inline-image">
+                <img src="Media/Oracle VM VirtualBox Manager 5_9_2022 1_39_27 AM.png" alt="My IT project" height="25%" width="33%">
+            </div>
+            <div class="article">
+                <h3>My Operating System Army</h3> 
+                <p>At some point during my tech journey I met Linux the free and open-source operating system and decided to navigate this new world. <br> I decided to explore Linux distributions and master their different tools. So far I have setup multiple Virtual Machines and did a couple bare Machine installations. Here are the Linux distro I still use on my computers:</p>
+                <ol>
+                    <li><a href="https://ubuntu.com/" target="_blank">Ubuntu</a></li>
+                    <li><a href="https://archlinux.org/" target="_blank">Arch Linux</a></li>
+                    <li><a href="https://www.gentoo.org/" target="_blank">Gentoo</a></li>
+                    <li><a href="https://www.kali.org/" target="_blank">Kali Linux</a></li>
+                </ol>
+                <p>I've not only played with the installations I also explored the terminal in great depth and learned some tools like scheduling tasks with <b>crontab</b>, <b>config files</b>, <b>Bash Scripting</b> and a lot more... I've also familiarized myself with the <b>Kernel</b> and <b>Grub</b>.</p>
+            </div>
+        </article>
+        <article>
+            <div class="inline-image">
+                <img src="Media/raspi.jpeg" alt="Robotic Project" height="25%" width="33%">
+            </div>
+            <div class="article">
+                <h3>Personalized Alarm</h3> 
+                <p>I am also tryin to learn about the <b>hardware</b>.<br>I was extremely lucky to manage to buy a <b>Raspberry Pi 4</b> with enough Ram to suppose some of my tinkering endeavors. This Alarm just plays a random song, podcast or speech from a chosen and modifiable playlist at a given time promising just what we need of motivation and joy to start the day.</p>  
+            </div>
+        </article>
+        <div class="section_title">
+            <h2>Education</h2>
         </div>
-        <div id="projects">
-            <h2>My On-going Projects</h2>
             <section>
                 <div class="subject">
                     <p>I have decided that taking on projects in a sequential order was better to maintain a healthy work-life balance and optimal productivity. Therefore here what I am currently working on</p>
