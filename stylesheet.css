@@ -1,20 +1,82 @@
-body{
-  background-color: lightgreen;
+*{
+  font-family:;
+}
+
+header{
+
+}
+
+form {
+
+}
+
+nav{
+
+}
+
+ul{
+
+}
+
+li{
+
+}
+
+a{
+
+}
+
+div{
+
+}
+
+hr{
+
 }
 
 main{
-  background-color: grey;
-  padding: 100px;
-}
-
-
-table, th, td, tr {
-  border: 1px solid;
-  width: fit-content;
-  
 
 }
 
-.front{
-  background-color: aquamarine;
+section{
+
 }
+
+article{
+
+}
+
+h2{
+
+}
+
+p {
+  color:light-green;
+  font-family:;
+  font:;
+  font-size:9;
+}
+
+
+
+.Logo {
+
+}
+
+.front {
+
+}
+
+.Logo {
+
+}
+
+.Logo {
+
+}
+
+.Logo {
+
+}
+
+
