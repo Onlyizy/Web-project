@@ -11,7 +11,7 @@
     </head>
     <body>
         <header>
-            <div class="Logo">
+            <div class="media logo" id="mylogo">
                 <img src="" alt="my logo">
             </div>
             <form action="second.html" method="POST">
@@ -19,8 +19,8 @@
                 <input name="uname" value="" id="uid">
                 <label for="pwd">Password: </label>
                 <input type="password" name="pword" value="defaultpassword" id="pwd">
-                <div class="submit-button" id="review-sub">
-                    <input type="submit" value="Submit">
+                <div class="button" id="login">
+                    <input type="submit" value="Login">
                 </div>
             </form>
             <nav>
@@ -28,14 +28,12 @@
                     <li><a href="#education">My Education so far</a></li>
                     <li><a href="#work">My Work</a></li>    
                     <li><a href="#projects">My On-going Projects</a></li>
-                    <!--<li><a href="#experience">My work Experience</a></li>
-                    <li><a href="#media">Media</a></li>
-                    -->
-                    <li><a href="#skills">Skills and Certifications</a></li>
+                    <li><a href="#certification">Certifications</a></li>
+                    <li><a href="#skills">Skills</a></li>
                     <li><a href="#social">Social Media Links</a></li>
                 </ul>
             </nav>
-            <div class="front" background-image=""> <!-- photo of me to be added to as attribut to the front class -->
+            <div id="front" background-image=""> <!-- photo of me to be added to as attribut to the front class -->
                 <h1><span>Isaac Kone</span></h1>
                 <h4><span>Immersive Resume</span></h4>
             </div>
@@ -126,35 +124,37 @@
                 </div>
                 <article>
                     <p>I like to see myself as a self-propelling wheel. So I often find myself trying to accomplish too much at the same time.<br>After some trial and error I decided to work on my Projects in a sequential way, Taking one idea to completion before working on another one. I still improve my finished project on my spare time. </p>
-                    <div class="inline-image">
+                    <div class="left-inline-image">
                         <img src="Media/Xmonad.png" alt="on-going project" height="25%" width="33%">
                     </div>
-                    <div class="article">   
+                    <div class="right-side-text">   
                         <h3>Personalizing my own xmonad.hs</h3>
                         <p>Since the installation of my two <b>minimal Linux distribution</b> I grew weary of just staring at the black terminal screen so I decided to add a graphical environment.<br>Instead of just downloading a <b>Desktop envrionment</b> (The easy option) I decided to work with a <b>tiling windows manager</b> called <b>The xmonad</b>script is written in <b>haskell</b>. My goal is to modify the script to optimize efficiency (on the computer ressources and on my workflow</p>
                     </div>
                 </article>
             </section>
+            <div class="content-separator" id="learning" background-image="">
+            </div>
             <section class="content-container" id="certification">
                 <div class="section_title">
                     <h2><span class="title">Certifications</span></h2>
                     <p><span class="title-description">Some of the certifications I obtained</p>
                 </div>
                 <p>Inline with my character I wouldn't wait for the University curriculum to obtain certifications and learn.</p>
-                <div class="certif-list">
+                <div id="certif-list">
                     <ul>
-                        <li><span class="website_link"><a href="" target="_blank">CODECADEMY HTML FREE COURSE</a></span><span class="website_logo"><a href="" target="_blank"><img src="" alt="CODECADEMY LOGO" height="" width=""></a></span></li>
-                        <li><span class="website_link"><a href="" target="_blank">CODECADEMY CSS FREE COURSE</a></span><span class="website_logo"><a href="" target="_blank"><img src="" alt="CODECADEMY LOGO" height="" width=""></a></span></li>
-                        <li><span class="website_link"><a href="" target="_blank">CODECADEMY JS FREE COURSE</a></span><span class="website_logo"><a href="" target="_blank"><img src="" alt="CODECADEMY LOGO" height="" width=""></a></span></li>
-                        <li><span class="website_link"><a href="" target="_blank">CODECADEMY ADVANCED JS FREE COURSE</a></span><span class="website_logo"><a href="" target="_blank"><img src="" alt="CODECADEMY LOGO" height="" width=""></a></span></li>
-                        <li><span class="website_link"><a href="" target="_blank">SOLOLEARN HTML FREE COURSE</a></span><span class="website_logo"><a href="" target="_blank"><img src="" alt="CODECADEMY LOGO" height="" width=""></a></span></li>
-                        <li><span class="website_link"><a href="" target="_blank">SOLOLEARN CSS FREE COURSE</a></span><span class="website_logo"><a href="" target="_blank"><img src="" alt="CODECADEMY LOGO" height="" width=""></a></span></li>
-                        <li><span class="website_link"><a href="" target="_blank">SOLOLEARN JS FREE COURSE</a></span><span class="website_logo"><a href="" target="_blank"><img src="" alt="CODECADEMY LOGO" height="" width=""></a></span></li>
-                        <li><span class="website_link"><a href="" target="_blank">SOLOLEARN PHP FREE COURSE</a></span><span class="website_logo"><a href="" target="_blank"><img src="" alt="CODECADEMY LOGO" height="" width=""></a></span></li>
-                        <li><span class="website_link"><a href="" target="_blank">W3SCHOOLS GIT FREE COURSE</a></span><span class="website_logo"><a href="" target="_blank"><img src="" alt="CODECADEMY LOGO" height="" width=""></a></span></li>
-                        <li><span class="website_link"><a href="" target="_blank">W3SCHOOLS JAVA FREE COURSE</a></span><span class="website_logo"><a href="" target="_blank"><img src="" alt="CODECADEMY LOGO" height="" width=""></a></span></li>
-                        <li><span class="website_link"><a href="" target="_blank">FREECOODECAMP.ORG C++ FREE COURSE</a></span><span class="website_logo"><a href="" target="_blank"><img src="" alt="CODECADEMY LOGO" height="" width=""></a></span></li>
-                        <li><span class="website_link"><a href="" target="_blank">TUTORIALSPOINT HASKELL FREE COURSE</a></span><span class="website_logo"><a href="" target="_blank"><img src="" alt="CODECADEMY LOGO" height="" width=""></a></span></li>
+                        <li><span class="website-link"><a href="" target="_blank">CODECADEMY HTML FREE COURSE</a></span><span class="website-logo"><a href="" target="_blank"><img src="" alt="CODECADEMY LOGO" height="" width=""></a></span></li>
+                        <li><span class="website-link"><a href="" target="_blank">CODECADEMY CSS FREE COURSE</a></span><span class="website-logo"><a href="" target="_blank"><img src="" alt="CODECADEMY LOGO" height="" width=""></a></span></li>
+                        <li><span class="website-link"><a href="" target="_blank">CODECADEMY JS FREE COURSE</a></span><span class="website-logo"><a href="" target="_blank"><img src="" alt="CODECADEMY LOGO" height="" width=""></a></span></li>
+                        <li><span class="website-link"><a href="" target="_blank">CODECADEMY ADVANCED JS FREE COURSE</a></span><span class="website-logo"><a href="" target="_blank"><img src="" alt="CODECADEMY LOGO" height="" width=""></a></span></li>
+                        <li><span class="website-link"><a href="" target="_blank">SOLOLEARN HTML FREE COURSE</a></span><span class="website-logo"><a href="" target="_blank"><img src="" alt="CODECADEMY LOGO" height="" width=""></a></span></li>
+                        <li><span class="website-link"><a href="" target="_blank">SOLOLEARN CSS FREE COURSE</a></span><span class="website-logo"><a href="" target="_blank"><img src="" alt="CODECADEMY LOGO" height="" width=""></a></span></li>
+                        <li><span class="website-link"><a href="" target="_blank">SOLOLEARN JS FREE COURSE</a></span><span class="website-logo"><a href="" target="_blank"><img src="" alt="CODECADEMY LOGO" height="" width=""></a></span></li>
+                        <li><span class="website-link"><a href="" target="_blank">SOLOLEARN PHP FREE COURSE</a></span><span class="website-logo"><a href="" target="_blank"><img src="" alt="CODECADEMY LOGO" height="" width=""></a></span></li>
+                        <li><span class="website-link"><a href="" target="_blank">W3SCHOOLS GIT FREE COURSE</a></span><span class="website-logo"><a href="" target="_blank"><img src="" alt="CODECADEMY LOGO" height="" width=""></a></span></li>
+                        <li><span class="website-link"><a href="" target="_blank">W3SCHOOLS JAVA FREE COURSE</a></span><span class="website-logo"><a href="" target="_blank"><img src="" alt="CODECADEMY LOGO" height="" width=""></a></span></li>
+                        <li><span class="website-link"><a href="" target="_blank">FREECOODECAMP.ORG C++ FREE COURSE</a></span><span class="website-logo"><a href="" target="_blank"><img src="" alt="CODECADEMY LOGO" height="" width=""></a></span></li>
+                        <li><span class="website-link"><a href="" target="_blank">TUTORIALSPOINT HASKELL FREE COURSE</a></span><span class="website-logo"><a href="" target="_blank"><img src="" alt="CODECADEMY LOGO" height="" width=""></a></span></li>
                     </ul>
                 </div>
             </section>        
@@ -162,7 +162,7 @@
             </div>
             <section id="skills" class="content-container">
                 <h2>Skill table</h2>
-                <div class="skill-table">
+                <div id="skill-table">
                     <table>
                         <tr>
                             <th>Skills</th>
@@ -191,6 +191,8 @@
                     </table>
                 </div>
             </section>
+            <div class="content-separator" id="end" background-image="">
+            </div>
         </main>
         <hr>
         <footer>
@@ -200,7 +202,7 @@
                 <input type="textarea" name="fdback" id="fd" value="Please write me a feedback">
                 <label for="rating">Review: </label>
                 <input id="rating" type="range" min="0" max="5" name="review" value="0" step="0.5">
-                <div class="submit-button" id="review-sub">
+                <div class="button" id="submit">
                     <input type="submit" value="Submit">
                 </div>
             </form>
