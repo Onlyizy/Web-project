@@ -1,20 +1,368 @@
+*{
+  /*font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;*/
+  color: lightgreen;
+  font-weight: bolder;  
+}
+
+/*
+==============================================================================================
+block-elements 
+---------------
+*/
 body{
-  background-image:
+  /*background-image: url("Media/632692.jpg");*/
+  background-color: black;
+
+}
+
+header{ 
+  background-color: gray;
+  opacity: 70%;
+  padding: 30px;
+
+}
+
+div{
+  background-color: gray;
+}
+
+form{
+  background-color: gray;
+}
+
+nav{
+  background-color: gray;
+}
+
+ul{
+  background-color: gray;
+  
 }
 
 main{
-  background-color: grey;
-  padding: 100px;
+  background-color: gray;
+}
+
+section{
+  background-color: gray;
+}
+
+article{
+  background-color: gray;
+}
+
+ol{
+  background-color: gray;
+}
+
+/*
+=============================================================================================
+medias
+--------
+*/
+img{
+  border:1px solid red;
+
+}
+
+img:hover{
+
+}
+
+img:focus{
+  border:1px solid blue;
+}
+
+/*
+=============================================================================================
+inline-elements
+---------------
+*/
+label{
+  text-transform: uppercase;
+
+}
+
+input{
+
+}
+
+input[type~="submit"]{
+
+}
+
+input:active{
+  border:1px solid blue;
+
+}
+
+li{
+
+}
+
+a{
+
+}
+
+a[href*="izy"]{
+
+}
+
+a:hover{
+
+}
+
+a:visited{
+
+}
+
+h1{
+  text-transform: uppercase;
+}
+
+h4{
+  text-transform: uppercase;
+
+}
+
+span{
+
+}
+
+hr{
+
+}
+
+h2{
+  text-transform: uppercase;
+}
+
+h3{
+  text-transform: uppercase;
+}
+
+p{
+  color:light-green;
+  font-family:;
+  font:;
+  font-size:9;
+}
+
+/*
+=============================================================================================
+Tables
+--------
+*/
+
+table{
+  border: 1px solid green
+
+}
+/*
+=============================================================================================
+ Classes
+---------
+*/
+.media{
+
+}
+
+.logo{
+
+}
+
+.button{
+
+}
+
+.content-container{
+
+}
+
+.section-title{
+
+}
+
+.title{
+
+}
+
+.title-description{
+
+}
+
+.left-inline-image{
+
+}
+
+.right-side-text{
+
+}
+
+.left-side-text{
+
+}
+
+.right-inline-image{
+
+}
+
+.content-separator{
+
+}
+
+.website-link{
+
+}
+
+.website-logo{
+
+}
+
+/*
+=============================================================================================
+ID
+---
+*/
+#mylogo{
+
+}
+
+#pwd{
+
+}
+
+#login{
+
+}
+
+#front{
+
+}
+
+#education{
+
+}
+
+#work{
+
+}
+
+#project{
+
+}
+
+#certification{
+
+}
+
+#skills{
+
+}
+
+#social{
+
+}
+
+#empt{
+
+}
+
+#carleton{
+
+}
+
+#web-project{
+
+}
+
+#software-project{
+
+}
+
+#system-project{
+
+}
+
+#hd-project{
+
+}
+
+#tty-log{
+
+}
+
+#learning{
+
+}
+
+#certif-list{
+
+}
+
+#hdware{
+
+}
+
+#skills{
+
+}
+
+#skill-table{
+
+}
+
+#end{
+
+}
+
+#feedback{
+
+}
+
+#social{
+
 }
 
 
-table, th, td, tr {
-  border: 1px solid;
-  width: fit-content;
-  
+/*
+===============================================================================================
+Custom Rules
+-------------
+*/
+@font-face {
+  font-family: Monoid;
+  src: url();
+}
+
+@import url(https://cdn.jsdelivr.net/npm/firacode@6.2.0/distr/fira_code.css);
+
+
+/*
+=============================================================================================
+Attributes
+-----------
+We just use those to target specific elements without needing to modify the html structure.
+In case I have to modify the style of the link here is the template
+[attribute]{
+}
+element[attribute]{
+}
+element[attribute*="str"]{        the style will be applied to any value containing the str
+
+} 
+
+element[attribute="value"]{       the style will be applied to the exact value
+
+}
+element[attribute$="end-str"]{
+
+}
+element[attribute~="str"]{        the style will be applied whenever str is exactly a string of the value(!= contains) It is better used for classes and stuff with multiple values
 
 }
 
-.front{
-  background-color: aquamarine;
-}
+There is a ton to learn about that
+*/
+
+
