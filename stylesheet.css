@@ -1,8 +1,7 @@
 *{
-  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  color: aquamarine;
+  /*font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;*/
+  color: lightgreen;
   font-weight: bolder;  
-
 }
 
 /*
@@ -11,49 +10,49 @@ block-elements
 ---------------
 */
 body{
-  background-image: url("Media/632692.jpg");
+  /*background-image: url("Media/632692.jpg");*/
   background-color: black;
 
 }
 
 header{ 
-  background-color: greenyellow;
+  background-color: gray;
   opacity: 70%;
   padding: 30px;
-  
 
 }
 
 div{
-
+  background-color: gray;
 }
 
 form{
-
+  background-color: gray;
 }
 
 nav{
-
+  background-color: gray;
 }
 
 ul{
-
+  background-color: gray;
+  
 }
 
 main{
-
+  background-color: gray;
 }
 
 section{
-
+  background-color: gray;
 }
 
 article{
-
+  background-color: gray;
 }
 
 ol{
-
+  background-color: gray;
 }
 
 /*
@@ -62,7 +61,16 @@ medias
 --------
 */
 img{
+  border:1px solid red;
 
+}
+
+img:hover{
+
+}
+
+img:focus{
+  border:1px solid blue;
 }
 
 /*
@@ -71,10 +79,20 @@ inline-elements
 ---------------
 */
 label{
+  text-transform: uppercase;
 
 }
 
 input{
+
+}
+
+input[type~="submit"]{
+
+}
+
+input:active{
+  border:1px solid blue;
 
 }
 
@@ -86,11 +104,24 @@ a{
 
 }
 
-h1{
+a[href*="izy"]{
 
 }
 
+a:hover{
+
+}
+
+a:visited{
+
+}
+
+h1{
+  text-transform: uppercase;
+}
+
 h4{
+  text-transform: uppercase;
 
 }
 
@@ -103,11 +134,11 @@ hr{
 }
 
 h2{
-
+  text-transform: uppercase;
 }
 
 h3{
-
+  text-transform: uppercase;
 }
 
 p{
@@ -117,6 +148,16 @@ p{
   font-size:9;
 }
 
+/*
+=============================================================================================
+Tables
+--------
+*/
+
+table{
+  border: 1px solid green
+
+}
 /*
 =============================================================================================
  Classes
@@ -301,6 +342,27 @@ Custom Rules
 =============================================================================================
 Attributes
 -----------
+We just use those to target specific elements without needing to modify the html structure.
+In case I have to modify the style of the link here is the template
+[attribute]{
+}
+element[attribute]{
+}
+element[attribute*="str"]{        the style will be applied to any value containing the str
+
+} 
+
+element[attribute="value"]{       the style will be applied to the exact value
+
+}
+element[attribute$="end-str"]{
+
+}
+element[attribute~="str"]{        the style will be applied whenever str is exactly a string of the value(!= contains) It is better used for classes and stuff with multiple values
+
+}
+
+There is a ton to learn about that
 */
 
 
