@@ -10,7 +10,7 @@ block-elements
 ---------------
 */
 body{
-  /*background-image: url("Media/632692.jpg");*/
+  background-image: url("Media/480530.png");
   background-color: black;
 
 }
@@ -23,7 +23,6 @@ header{
 }
 
 div{
-  background-color: gray;
 }
 
 form{
@@ -40,11 +39,9 @@ ul{
 }
 
 main{
-  background-color: gray;
 }
 
 section{
-  background-color: gray;
 }
 
 article{
@@ -66,6 +63,9 @@ img{
 }
 
 img:hover{
+  transform: scaleZ(150%);
+  transform: scaleX(150%);
+  transform: scaleY(150%);
 
 }
 
@@ -158,6 +158,10 @@ table{
   border: 1px solid green
 
 }
+tr{
+
+  border: 1px solid green
+}
 /*
 =============================================================================================
  Classes
@@ -168,6 +172,7 @@ table{
 }
 
 .logo{
+  
 
 }
 
