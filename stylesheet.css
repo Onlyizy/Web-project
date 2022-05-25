@@ -12,11 +12,13 @@ block-elements
 body{
   background-image: url("Media/480530.png");
   background-color: black;
+  width: 80%;
 
 }
 
 header{ 
   background-color: gray;
+  width: 80%;
   opacity: 70%;
   padding: 30px;
 
@@ -26,15 +28,18 @@ div{
 }
 
 form{
-  background-color: gray;
+  background-color: black;
+  width: 80%;
 }
 
 nav{
-  background-color: gray;
+  background-color: black;
+  width: 80%;
 }
 
 ul{
-  background-color: gray;
+  background-color: black; 
+  width: 80%;
   
 }
 
@@ -46,10 +51,13 @@ section{
 
 article{
   background-color: gray;
+  width: 80%;
+  align-content: center;
 }
 
 ol{
-  background-color: gray;
+  background-color: black; 
+  width: 80%;
 }
 
 /*
