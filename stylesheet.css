@@ -11,52 +11,51 @@ block-elements
 */
 body{
   background-image: url("Media/480530.png");
-  background-color: black;
+  background-color:  ;
   width: 80%;
 
 }
 
 header{ 
-  background-color: gray;
-  width: 80%;
-  opacity: 70%;
-  padding: 30px;
-
+  background-color: black
 }
 
 div{
+
 }
 
 form{
-  background-color: black;
+  background-color:  ;
   width: 80%;
 }
 
 nav{
-  background-color: black;
+  background-color:  ;
   width: 80%;
 }
 
 ul{
-  background-color: black; 
+  background-color:  ; 
   width: 80%;
   
 }
 
 main{
+  background-color: 
 }
 
 section{
+  background-color:;
+  opacity:
 }
 
 article{
-  background-color: gray;
+  background-color:   ;
   width: 80%;
-  align-content: center;
 }
 
 ol{
-  background-color: black; 
+  background-color:  ; 
   width: 80%;
 }
 
@@ -66,14 +65,13 @@ medias
 --------
 */
 img{
-  border:1px solid red;
+  
 
 }
 
 img:hover{
-  transform: scaleZ(150%);
-  transform: scaleX(150%);
-  transform: scaleY(150%);
+  border:1px solid blue;
+  
 
 }
 
@@ -138,22 +136,25 @@ span{
 }
 
 hr{
+  width:200%;
 
 }
 
-h2{
+h2,h3{
   text-transform: uppercase;
+  text-align: center;
 }
 
-h3{
+/*h3{
   text-transform: uppercase;
-}
+}*/
 
 p{
   color:light-green;
-  font-family:;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   font:;
-  font-size:9;
+  font-size:18px;
+  font-weight: bolder;
 }
 
 /*
@@ -189,6 +190,8 @@ tr{
 }
 
 .content-container{
+  margin: 10px;
+  padding: 10px;
 
 }
 
@@ -205,14 +208,17 @@ tr{
 }
 
 .left-inline-image{
-
 }
 
 .right-side-text{
+  text-align: right;
+  width: 30%;
+  padding-left: 50%;
 
 }
 
 .left-side-text{
+  text-align: left;
 
 }
 
@@ -321,7 +327,8 @@ ID
 
 }
 
-#skill-table{
+table#skill-table{
+  
 
 }
 
