@@ -10,6 +10,7 @@ html{
 
 *{
   color: brown;
+  border: 1px dotted red;
 }
 
 body{
