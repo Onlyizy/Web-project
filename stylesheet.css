@@ -1,348 +1,97 @@
+html{
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
 *{
-  /*font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;*/
-  color: lightgreen;
-  font-weight: bolder;  
+  color: brown;
 }
 
-/*
-==============================================================================================
-block-elements 
----------------
-*/
 body{
-  background-image: url("Media/480530.png");
-  background-color:  ;
-  width: 80%;
-
-}
-
-header{ 
-  background-color: black
-}
-
-div{
-
-}
-
-form{
-  background-color:  ;
-  width: 80%;
-}
-
-nav{
-  background-color:  ;
-  width: 80%;
-}
-
-ul{
-  background-color:  ; 
-  width: 80%;
+  background-color: antiquewhite;
   
+  height: 100%;
+  margin: auto;
+  padding: auto;
 }
 
 main{
-  background-color: 
+  padding: 15px;
+  margin: 10px;
+  background-image: url(Media/KUII9382.JPG);
+  border-radius: ;
 }
 
-section{
-  background-color:;
-  opacity:
-}
-
-article{
-  background-color:   ;
-  width: 80%;
-}
-
-ol{
-  background-color:  ; 
-  width: 80%;
-}
-
-/*
-=============================================================================================
-medias
---------
-*/
-img{
+header{
+  /*border: 1px solid red;*/
+  margin: 2%;
+  padding: 1%;
+  background-color: burlywood;
+  background: linear-gradient(-45deg,whitesmoke,burlywood);
+  border-radius: 30px;
+  height: 30%;
   
-
 }
 
-img:hover{
-  border:1px solid blue;
-  
-
+#login{
+  float: right;
+  padding: 2px; 
 }
 
-img:focus{
-  border:1px solid blue;
+.credentials{
+  margin: 2px;
+  padding: 4px;
 }
 
-/*
-=============================================================================================
-inline-elements
----------------
-*/
-label{
-  text-transform: uppercase;
+.login-button{
+  margin: 2px;
+}
+input{
+  color: black;
+}
+
+#mylogo{
+  margin: 10px;
+  border: 1px solid yellow;
+  width: 60px;
+  height: 60px;
 
 }
 
 input{
-
+  float: right;
+}
+.login-button{
+  float: right;
 }
 
-input[type~="submit"]{
-
-}
-
-input:active{
-  border:1px solid blue;
-
-}
-
-li{
-
-}
-
-a{
-
-}
-
-a[href*="izy"]{
-
-}
-
-a:hover{
-
-}
-
-a:visited{
-
-}
-
-h1{
-  text-transform: uppercase;
-}
-
-h4{
-  text-transform: uppercase;
-
-}
-
-span{
-
-}
-
-hr{
-  width:200%;
-
-}
-
-h2,h3{
-  text-transform: uppercase;
+h1,h4,h2,h6{
   text-align: center;
 }
 
-/*h3{
-  text-transform: uppercase;
-}*/
-
-p{
-  color:light-green;
-  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  font:;
-  font-size:18px;
-  font-weight: bolder;
-}
-
-/*
-=============================================================================================
-Tables
---------
-*/
-
-table{
-  border: 1px solid green
-
-}
-tr{
-
-  border: 1px solid green
-}
-/*
-=============================================================================================
- Classes
----------
-*/
-.media{
-
-}
-
-.logo{
-  
-
-}
-
-.button{
-
-}
-
-.content-container{
-  margin: 10px;
-  padding: 10px;
-
-}
-
-.section-title{
-
-}
-
-.title{
-
-}
-
-.title-description{
-
-}
-
-.left-inline-image{
-}
-
-.right-side-text{
-  text-align: right;
-  width: 30%;
-  padding-left: 50%;
-
-}
-
-.left-side-text{
-  text-align: left;
-
-}
-
-.right-inline-image{
-
-}
-
-.content-separator{
-
-}
-
-.website-link{
-
-}
-
-.website-logo{
-
-}
-
-/*
-=============================================================================================
-ID
----
-*/
-#mylogo{
-
-}
-
-#pwd{
-
-}
-
-#login{
-
-}
-
 #front{
-
+  width: 1080px;
+  height: 100%;
+  border-radius: 10px;
+  margin: 10px auto;
+  background-color: ;
 }
 
-#education{
-
+#front h1, h4{
+  text-align: center;
+  border: 4px solid white;
+  width: 100%;
+  margin: 5px auto;
 }
+img{}
 
-#work{
 
-}
 
-#project{
 
-}
 
-#certification{
 
-}
 
-#skills{
-
-}
-
-#social{
-
-}
-
-#empt{
-
-}
-
-#carleton{
-
-}
-
-#web-project{
-
-}
-
-#software-project{
-
-}
-
-#system-project{
-
-}
-
-#hd-project{
-
-}
-
-#tty-log{
-
-}
-
-#learning{
-
-}
-
-#certif-list{
-
-}
-
-#hdware{
-
-}
-
-#skills{
-
-}
-
-table#skill-table{
-  
-
-}
-
-#end{
-
-}
-
-#feedback{
-
-}
-
-#social{
-
-}
 
 
 /*
