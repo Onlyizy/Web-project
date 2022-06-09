@@ -14,12 +14,13 @@ html{
 }
 
 body{
-  background-color: antiquewhite;
+  /*background-color: antiquewhite;*/
+  background-color: black;
   height: 100%;
   margin: auto;
   padding: auto;
-  background-image: url(Media/techculture.png);
-  background-size: cover;
+  /*background-image: url(Media/techculture.png);
+  background-size: cover;*/
 }
 
 main{
@@ -30,12 +31,11 @@ main{
 
 header{
   /*border: 1px solid red;*/
-  margin: 2%;
+  margin: 0;
   padding: 1%;
   background-color: burlywood;
   background: linear-gradient(-45deg,whitesmoke,burlywood);
-  border-radius: 30px;
-  height: 30%;
+  height: 10%;
   
 }
 
