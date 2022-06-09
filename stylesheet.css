@@ -10,15 +10,17 @@ html{
 
 *{
   color: brown;
+  border: 3px solid red;
 }
 
 body{
-  background-color: antiquewhite;
+  /*background-color: antiquewhite;*/
+  background-color: black;
   height: 100%;
   margin: auto;
   padding: auto;
-  background-image: url(Media/techculture.png);
-  background-size: cover;
+  /*background-image: url(Media/techculture.png);
+  background-size: cover;*/
 }
 
 main{
@@ -29,12 +31,11 @@ main{
 
 header{
   /*border: 1px solid red;*/
-  margin: 2%;
+  margin: 0;
   padding: 1%;
   background-color: burlywood;
   background: linear-gradient(-45deg,whitesmoke,burlywood);
-  border-radius: 30px;
-  height: 30%;
+  height: 10%;
   
 }
 
@@ -75,8 +76,8 @@ h1,h4,h2,h6{
 }
 
 #front{
-  width: 75%;
-  height: 60%;
+  width: 100%;
+  height: 100%;
   border-radius: 10px;
   margin: 10px auto;
 
@@ -84,7 +85,6 @@ h1,h4,h2,h6{
 }
 
 #front h1, h4{
-  
   text-align: center;
   border: 4px solid white;
   width: 100%;
