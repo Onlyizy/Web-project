@@ -10,24 +10,11 @@
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/firacode@6.2.0/distr/fira_code.css">
     </head>
     <body>
-        <header>
-            <form action="second.html" method="POST" id="login">
-                <div class="credentials">
-                    <label for="uid">Username: </label>
-                    <input name="uname" value="" id="uid">
-                </div>
-                <div class="credentials">
-                    <label for="pwd">Password: </label>
-                    <input type="password" name="pword" value="" id="pwd">
-                </div>
-                <div class="login-button">
-                    <input type="submit" value="Login">
-                </div>
-            </form>
-            <div class="media-logo" id="mylogo">
-                <img src="Media/logo.png" alt="my logo" width="50px" height="50px">
-            </div>
+        <div id="nav-container">
             <nav>
+                <div id="mylogo">
+                    <img src="Media/logo.png" alt="my logo" width="50px" height="50px">
+                </div>
                 <ul>
                     <li><a href="#education">My Education so far</a></li>
                     <li><a href="#work">My Work</a></li>    
@@ -37,12 +24,12 @@
                     <li><a href="#social">Social Media Links</a></li>
                 </ul>
             </nav>
-        </header>
-        <div id="front"> <!-- photo of me to be added to as attribut to the front class -->
+        </div>
+        
+        <header>
             <h1><span>Isaac Kone</span></h1>
             <h4><span>Immersive Resume</span></h4>
-        </div>
-        <hr>
+        </header>
         <main>
             <section class="content-container" id="education">
                 <div class="section_title">
