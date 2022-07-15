@@ -1,126 +1,142 @@
-*{
+/*Always set the dimensions of the containing box with no width margin are gonna be innacurate */
+
+
+/*Vertical Margin collapse the bigger margin will be respected */
+html{
+  height: 100%;
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
-  font-family:Verdana, Geneva, Tahoma, sans-serif;
-  color: white;
-  color: aquamarine;
-
 }
 
-html{
-  margin: 0;
-  padding: 0;
-  height: 100%;
-  width: 100%;
-
+*{
+  color: brown;
+  border: 3px solid red;
 }
 
 body{
-  margin: 0;
-  padding: 0;
+  /*background-color: antiquewhite;*/
+  background-color: black;
   height: 100%;
-  width: 100%;
-  background-color: rgb(0, 1, 15);
-  overflow: scroll;
+  margin: auto;
+  padding: auto;
+  /*background-image: url(Media/techculture.png);
+  background-size: cover;*/
 }
 
+main{
+  padding: 15px;
+  margin: 10px;
+  border-radius: ;
+}
+
+header{
+  /*border: 1px solid red;*/
+  margin: 0;
+  padding: 1%;
+  background-color: burlywood;
+  background: linear-gradient(-45deg,whitesmoke,burlywood);
+  height: 10%;
+  
+}
+
+#login{
+  float: right;
+  padding: 2px; 
+}
+
+.credentials{
+  margin: 2px;
+  padding: 4px;
+}
+
+.login-button{
+  margin: 2px;
+}
 input{
   color: black;
 }
 
-h1{
-  font-size: 64px;
-  font-weight: bolder;
-}
-
-
-h1,h2,h3,h4,h5,h6{
-  text-align: center;
-  margin: 5px;
-
-}
-
-#nav-container{
-  margin: 0;
-  top:0px;
-  background-color: rgb(0, 11, 22);
-  height: 40px;
-  position: fixed;
-  border: 1px black solid;
-  width: 100%;
-}
-nav{
-  background-color: rgb(0, 11, 22);
-  position: fixed;
-  top:0px;
-  width: 100%;
-  display: block;
-  z-index: 10;
-  height: 100px;
-  border-radius: 50px;
-}
-
-nav ul{
-  width: 95%;
-  float: right;
-  clear: both;
-  text-align: center;
-  margin-top: 1%;
-  min-width: 1000px;
-  max-height: 30px;
-  overflow:hidden;
-
-}
-
-nav ul li{
-  display: inline-block;
-  font-size: large;
-  font-weight: bolder;
-  margin:2px 2%;
-}
-
-nav ul li :hover{
-  background-color: rgb(0, 36, 93);
-}
-
 #mylogo{
-  display: inline-block;
-  border: 2px white solid;
-  width: 90px;
+  margin: 10px;
+  border: 1px solid yellow;
+  width: 60px;
+  height: 60px;
+
 }
 
-header{
-  position: sticky;
-  top: 2000px;
-  display: block;
+input{
+  float: right;
+}
+.login-button{
+  float: right;
+}
+
+h1,h4,h2,h6{
+  text-align: center;
+}
+
+#front{
   width: 100%;
-  z-index: -10;
-  height: 1000px;
-  background-image: url(Media/480530.png) ;
-  background-size: cover;
+  height: 100%;
+  border-radius: 10px;
+  margin: 10px auto;
+
+  background-color: ;
+}
+
+#front h1, h4{
+  text-align: center;
+  border: 4px solid white;
+  width: 100%;
+  margin: auto auto;
+}
+img{}
+
+
+
+
+
+
+
+
+
+/*
+===============================================================================================
+Custom Rules
+-------------
+*/
+@font-face {
+  font-family: Monoid;
+  src: url();
+}
+
+@import url(https://cdn.jsdelivr.net/npm/firacode@6.2.0/distr/fira_code.css);
+
+
+/*
+=============================================================================================
+Attributes
+-----------
+We just use those to target specific elements without needing to modify the html structure.
+In case I have to modify the style of the link here is the template
+[attribute]{
+}
+element[attribute]{
+}
+element[attribute*="str"]{        the style will be applied to any value containing the str
+
+} 
+
+element[attribute="value"]{       the style will be applied to the exact value
+
+}
+element[attribute$="end-str"]{
+
+}
+element[attribute~="str"]{        the style will be applied whenever str is exactly a string of the value(!= contains) It is better used for classes and stuff with multiple values
 
 }
 
-main{
-  position: relative;
-  top: 500px;
-  background-color: black;
-}
+There is a ton to learn about that
+*/
 
-header h1{
-  position: relative;
-  top: 350px;
-  background-color: black;
-  width: fit-content;
-  margin: 0 auto;
-  color: aquamarine
-}
-header h4{
-  position: relative;
-  top: 400px;
-  color: aquamarine;
-  background-color: black;
-  width: fit-content;
-  margin: 0 auto;
-}
