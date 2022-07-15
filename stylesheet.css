@@ -1,0 +1,126 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+  color: aquamarine;
+
+}
+
+html{
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgb(0, 1, 15);
+  overflow: scroll;
+}
+
+input{
+  color: black;
+}
+
+h1{
+  font-size: 64px;
+  font-weight: bolder;
+}
+
+
+h1,h2,h3,h4,h5,h6{
+  text-align: center;
+  margin: 5px;
+
+}
+
+#nav-container{
+  margin: 0;
+  top:0px;
+  background-color: rgb(0, 11, 22);
+  height: 40px;
+  position: fixed;
+  border: 1px black solid;
+  width: 100%;
+}
+nav{
+  background-color: rgb(0, 11, 22);
+  position: fixed;
+  top:0px;
+  width: 100%;
+  display: block;
+  z-index: 10;
+  height: 100px;
+  border-radius: 50px;
+}
+
+nav ul{
+  width: 95%;
+  float: right;
+  clear: both;
+  text-align: center;
+  margin-top: 1%;
+  min-width: 1000px;
+  max-height: 30px;
+  overflow:hidden;
+
+}
+
+nav ul li{
+  display: inline-block;
+  font-size: large;
+  font-weight: bolder;
+  margin:2px 2%;
+}
+
+nav ul li :hover{
+  background-color: rgb(0, 36, 93);
+}
+
+#mylogo{
+  display: inline-block;
+  border: 2px white solid;
+  width: 90px;
+}
+
+header{
+  position: sticky;
+  top: 2000px;
+  display: block;
+  width: 100%;
+  z-index: -10;
+  height: 1000px;
+  background-image: url(Media/480530.png) ;
+  background-size: cover;
+
+}
+
+main{
+  position: relative;
+  top: 500px;
+  background-color: black;
+}
+
+header h1{
+  position: relative;
+  top: 350px;
+  background-color: black;
+  width: fit-content;
+  margin: 0 auto;
+  color: aquamarine
+}
+header h4{
+  position: relative;
+  top: 400px;
+  color: aquamarine;
+  background-color: black;
+  width: fit-content;
+  margin: 0 auto;
+}
