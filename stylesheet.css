@@ -20,9 +20,12 @@ table{
 
 #first-row{    
     position: fixed;
+    top:0;
     width: 100%;
-    background-color: #f3d0a4;
+    background: linear-gradient(-45deg,#f3d0a4,#d6ac87);
     z-index: 50;
+    max-height: 200px;
+    overflow:scroll;
     
 }
 #logo-container{
@@ -72,9 +75,10 @@ nav li{
     margin: 30px;
 }
 
+
 #second-row{
     position: relative;
-    top:150px;
+    top:125px;
     background: url(pexels-pixabay-59989.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -84,25 +88,82 @@ nav li{
 #title-container{
     padding: 5px;
     position: sticky;
-    top: 15%;
+    top: 20%;
 }
 
 label,h1{
     font-weight: bolder;
+    text-shadow: 1px 1px 2px white;
     margin: 5px;
     opacity: 1;
-    font-family:'Times New Roman', Times, serif
+    font-family:'Times New Roman', Times, serif;
 
 }
 
 #intro{
     text-align: center;
+    border: red 1px solid
+
 }
 
 
 section{
     background: linear-gradient(-45deg, #e4bd95, #d6ac87);
-    margin: 10px;
-    border-radius: 10px;
+    margin: 50px;
+    border-radius: 50px;
     padding: 10px;
+    min-width: 615px;
+    height: 400px;
+    text-align: center;
+    overflow: scroll;
 }
+
+article{
+    display: inline-block;
+    width: 50%;
+    position: relative;
+}
+
+aside{
+    display: inline-block;
+    border: 1px red solid;
+    width: 33%;
+    min-height: 250px;
+    position: relative;
+    bottom: 100px;   
+}
+
+.left{
+    top: 75px;
+}
+
+.right{
+    top: 75px;
+}
+
+#fdb{
+    text-align: center;
+    width: 33%;
+    margin: 50px;
+    float: left;
+}
+
+#vl{
+    border-left: 1px black solid;
+    height: 500px;
+    position: relative;
+    display: inline-block;
+    left: 15%;
+}
+
+#media{
+    text-align: center;
+    width: 33%;
+    margin: 50px;
+    float: right;
+}
+
+#media ul{
+    list-style-type: none;
+}
+
