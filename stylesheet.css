@@ -9,20 +9,20 @@ body{
 }
 
 header{
-    margin-bottom:50px;
+    margin-bottom:0px;
     padding: 0px;
 }
 
-table{
+#head{
     height: 500px;
     margin-bottom:200px;
 }
 
-#first-row{    
+#nav-bar{    
     position: fixed;
     top:0;
     width: 100%;
-    background: linear-gradient(-45deg,#f3d0a4,#d6ac87);
+    background: linear-gradient(-45deg,#cea787,#c59d7f);
     z-index: 50;
     max-height: 200px;
     overflow:scroll;
@@ -53,10 +53,10 @@ table{
 #nav-list li:hover{
     padding: 0;
     font-size: larger;
-    background-color: #c99b7a;
+    background-color: #f3d0a4;
 }
 
-table td {
+#head td {
     text-align: center;  
 }
 
@@ -76,7 +76,7 @@ nav li{
 }
 
 
-#second-row{
+#banner{
     position: relative;
     top:125px;
     background: url(pexels-pixabay-59989.jpg);
@@ -95,75 +95,93 @@ label,h1{
     font-weight: bolder;
     text-shadow: 1px 1px 2px white;
     margin: 5px;
-    opacity: 1;
     font-family:'Times New Roman', Times, serif;
 
 }
 
-#intro{
+#text-drop{
     text-align: center;
-    border: red 1px solid
+    position: sticky;
+    bottom: 50%;
+    z-index: -1;
+    height: 150px;
 
 }
 
+
+
+#animation{
+    margin: 0;
+    text-align: center;
+    bottom: 0;
+
+}
+
+
+
+#animation img{
+    height: 500px;
+    width: 500px;
+}
+
+main{
+    background-color: #eac69d;
+    padding: 50px 0px;
+    margin: 0 75px;
+
+}
 
 section{
-    background: linear-gradient(-45deg, #e4bd95, #d6ac87);
-    margin: 50px;
-    border-radius: 50px;
-    padding: 10px;
-    min-width: 615px;
-    height: 400px;
-    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    margin: 150px;
     overflow: scroll;
-}
-
-article{
-    display: inline-block;
-    width: 50%;
-    position: relative;
-}
-
-aside{
-    display: inline-block;
-    border: 1px red solid;
-    width: 33%;
-    min-height: 250px;
-    position: relative;
-    bottom: 100px;   
-}
-
-.left{
-    top: 75px;
-}
-
-.right{
-    top: 75px;
-}
-
-#fdb{
     text-align: center;
-    width: 33%;
-    margin: 50px;
-    float: left;
+
 }
 
-#vl{
-    border-left: 1px black solid;
+main table{
+    background: linear-gradient(-45deg, #e1bc95, #d8b18e);
+    border-radius: 50px;
+    padding: 30px;
+
+    
+}
+
+.image-container{
+    width: 500px;
     height: 500px;
-    position: relative;
-    display: inline-block;
-    left: 15%;
 }
 
-#media{
+.article-container{
+    width: 500px;
+    height: 500px;
+
+}
+
+footer{
+    margin: 100px 0px;
+    background-color: #c59d7f;
     text-align: center;
-    width: 33%;
-    margin: 50px;
-    float: right;
 }
 
+#foot-table{
+    display: flex;
+    justify-content: space-around;
+}
+#fdb{
+    padding: 50px;
+}
+
+#space{
+    width: 5%;
+}
 #media ul{
     list-style-type: none;
+}
+
+.logo{
+    width: 25px;
+    height: 25px;
 }
 
